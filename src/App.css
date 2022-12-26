@@ -1,0 +1,477 @@
+/*--------------------------- Navbar */
+
+/* Logo */
+
+.bluelogo img {
+  position: relative;
+  width: 5vh;
+  margin: 1vh 0vh 5vh 5vh;
+}
+
+.black-logo img {
+  position: relative;
+  width: 15vh;
+  margin: 1% 0% 5% 1%;
+  border-style: none;
+}
+
+/* Upper Nav links */
+
+.top-nav {
+  display: inline-flex;
+}
+
+.product-links {
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  left: 10vh;
+  bottom: 1vh;
+  margin-top: 2vh;
+  display: inline-flex;
+}
+.property-icon{
+  padding-bottom: 1vh;
+}
+.motors-icon{
+  padding-bottom: 1vh;
+}
+
+.product-links a {
+  padding-right: 20%;
+}
+
+/* =-------------------------mid navbar */
+
+.mid-nav {
+  margin-top: -2%;
+}
+
+/* Search */
+.icon1{
+  position: fixed;
+  left: 20vh;
+}
+
+.Location-input {
+  position: relative;
+  left: 8vh;
+  bottom: 0rem;
+  border-radius: 5px;
+  border-color: darkgreen;
+  width: 30vh;
+  height: 3rem;
+}
+
+
+.search-comp {
+  position: relative;
+ 
+  left: 14vh;
+  bottom: 0.5rem;
+  height: 3rem;
+  width: 80vh;
+  border-radius: 5px 0px 5px 5px;
+  border-width: 2px;
+  border-color: darkgreen;
+}
+
+.search-button {
+  position: relative;
+  left: 7vh;
+  bottom: 0.5rem;
+  height: 3rem;
+  width: 7%;
+  border-radius: 4px;
+  background-color:rgb(12, 46, 12);
+  color: aliceblue;
+}
+
+.login {
+  text-decoration: underline;
+  color: rgb(24, 31, 24);
+  position: relative;
+  left: 14vh;
+  bottom: 0.5rem;
+  font-size: 19px;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.btn1{
+  width: 40vh;
+  height: 20vh;
+}
+.sell-btn{
+   position: relative;
+   left: 18vh;
+   bottom: 1vh;
+}
+.dd1{
+  
+  position: relative;
+  left: 4vh;
+}
+
+
+/* =-------------------Footer */
+
+/* footer */
+
+footer {
+  background-color: rgb(237, 237, 237);
+  box-sizing: border-box;
+}
+
+.section-gap {
+  font-size: 13px;
+  margin-bottom: 0%;
+  width: "fit-content";
+  margin-top: 70vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* List section */
+.sing-footer {
+  color: grey;
+  padding: 2% 0% 5% 0%;
+  position: relative;
+  top: 40%;
+  width: 98%;
+  display: inline-flex;
+}
+
+.list-div {
+  margin: 0% 7%;
+  position: relative;
+  right: 5%;
+}
+
+.sing-footer h6 {
+  color: rgb(3, 56, 3);
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  width: 220%;
+}
+
+.sing-footer ul {
+  list-style: none;
+  font-weight: 200;
+  width: 190%;
+}
+
+.nav-footer li:hover {
+  cursor: pointer;
+  color: darkgreen;
+}
+
+/* Social links */
+
+.social-links {
+  display: inline-flex;
+}
+
+.social-links img {
+  width: 70%;
+  padding: 0%;
+}
+.social-links img:hover {
+  cursor: pointer;
+}
+
+#Move {
+  position: relative;
+  right: 5%;
+}
+#Move2 {
+  position: relative;
+  right: 10%;
+}
+#Move3 {
+  position: relative;
+  right: 15%;
+}
+
+.social-links2 {
+  display: inline-flex;
+}
+
+.social-links2 img {
+  width: 180%;
+  padding: 0%;
+  margin: 0% 0%;
+  position: relative;
+  top: 170%;
+}
+.social-links2 img:hover {
+  cursor: pointer;
+}
+
+#move {
+  position: relative;
+  left: 30%;
+}
+#move2 {
+  position: relative;
+  left: 60%;
+}
+
+ul {
+  margin-bottom: 0%;
+  padding-left: 2%;
+  list-style: none;
+}
+
+/* Copyright*/
+
+.last{
+  background-color: rgb(3, 47, 30);
+  color: white;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px;
+  margin-bottom: -5%;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+}
+.nav1{
+   height: 100px;
+   background-color: antiquewhite;
+}
+/* ------------- Products ------------- */
+
+.card-img {
+  width: 100%;
+  object-fit: contain;
+  height: 150px;
+  background-color: rgb(34, 34, 34);
+  border-radius: 5px 5px 0 0;
+}
+
+.featur-btn {
+  background-color: #FFCE32;
+  font-size: 10px;
+  top: 120px;
+  left: 5px;
+}
+
+.cardFooter {
+  font-size: 12px;
+  color: rgb(56, 53, 53);
+}
+
+
+.heart-icon {
+  right: 5px !important;
+  top: 3px !important;
+}
+
+.feature-line {
+  width: 5px;
+  height: 100%;
+  background-color: #FFCE32;
+  border-radius: 0 0 0 5px;
+}
+
+.load-more-btn:hover {
+  outline: 2px solid black !important;
+  transition: 0.05s ease;
+}
+/* ------------- Product Listings ------------- */
+
+
+
+.CheckboxContainer {
+
+  display: flex;
+  align-items: center;
+}
+
+.CheckBox {
+  cursor: pointer;
+  width: 1.3rem;
+  height: 1.3rem;
+  outline: none !important;
+}
+
+.CheckBoxLable {
+  cursor: pointer;
+}
+
+
+@media (min-width: 992px) {
+  .listingColumn {
+      scale: 0.94;
+      transform-origin: 0 2rem !important;
+  }
+}
+
+/* -------------- Product Slider -------------- */
+
+.productImageSlider {
+  height: 90vh;
+  border-radius: 5px;
+}
+
+.carouselInnerContainer {
+  height: 80%;
+  border-radius: 5px 5px 0 0;
+}
+
+.slideImg {
+  object-fit: contain;
+  height: 100% !important;
+  width: 100% !important;
+  background-color: rgb(34, 34, 34);
+
+}
+
+.thumb-container {
+  height: 18%;
+}
+
+.thumbs {
+  height: 80% !important;
+}
+
+.active {
+  opacity: 1 !important;
+  border: 2px solid black !important;
+
+}
+
+.thumbs:hover {
+  opacity: 1;
+}
+
+.prev,
+.next {
+  margin-bottom: 20%;
+}
+
+/* -------------- Product Price -------------- */
+
+.priceRowIcons,
+.priceRowPrice,
+.priceRow {
+  height: fit-content;
+}
+
+.shareNode:hover {
+  color: #3A77FF;
+  cursor: pointer;
+}
+
+/* -------------- Seller Description -------------- */
+
+.sellerImage {
+  width: 4rem;
+}
+
+.memberTime {
+  font-size: 14px;
+}
+
+.sellerName {
+  font-size: 1rem;
+}
+
+.chatWithSellerBtn,
+.chatWithSellerBtn:hover {
+  background-color: #002F34;
+  font-size: 1rem;
+}
+
+
+/* -------------- Product Info -------------- */
+
+.productInfoHeading {
+  font-size: 20px;
+}
+
+/*  sell form */
+.cameraicon{
+  width: 4rem;
+}
+.image-box{
+  width: 50vh;
+  height: 25vh;
+}
+.box-number{
+  position: relative;
+  right: 15vh;
+  
+}
+
+
+/* Login Form */
+
+.linksection{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.7;
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+}
+
+.LoginForm {
+  width: 30vw;
+  border-radius: 5px;
+  height: 75vh;
+  position: relative;
+  overflow: hidden;
+  left: 450px;
+  top: 50px;
+  z-index: 2;
+  background-color:#EDEDED;
+ 
+  margin-bottom: 10%;
+}
+
+
+
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  display: block;
+  color: rgb(13, 14, 14);
+ 
+}
+
+.Emailinput {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  padding-left: 15px;
+  position: relative;
+  left: 10px;
+  margin: 0px 0px 20px 55px;
+  width: 65%;
+  height: 50px;
+  border-style: 2px solid rgb(33, 159, 140);
+ 
+  border-radius: 5px;
+}
+.Passwordinput {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  margin: 0px 0px 30px 35px;
+  padding-left: 15px;
+  position: relative;
+  left: 30px;
+  width: 65%;
+  height: 50px;
+  border-style: 2px solid rgb(33, 159, 140);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.loginformbtn {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
