@@ -2,22 +2,16 @@
 
 /* Logo */
 
-.bluelogo img {
+
+
+/* Upper Nav links */
+
+.olxlogo img {
   position: relative;
   width: 5vh;
   margin: 1vh 0vh 5vh 5vh;
 }
-
-.black-logo img {
-  position: relative;
-  width: 15vh;
-  margin: 1% 0% 5% 1%;
-  border-style: none;
-}
-
-/* Upper Nav links */
-
-.top-nav {
+.topnav {
   display: inline-flex;
 }
 
@@ -30,30 +24,35 @@
   margin-top: 2vh;
   display: inline-flex;
 }
-.property-icon{
-  padding-bottom: 1vh;
-}
-.motors-icon{
-  padding-bottom: 1vh;
-}
+
 
 .product-links a {
   padding-right: 20%;
 }
+.propertyicon{
+  padding-bottom: 1vh;
+}
+.motorsicon{
+  padding-bottom: 1vh;
+}
 
 /* =-------------------------mid navbar */
 
-.mid-nav {
+.midnav {
   margin-top: -2%;
 }
 
-/* Search */
-.icon1{
-  position: fixed;
-  left: 20vh;
+.olx2-logo img {
+  position: relative;
+  width: 15vh;
+  margin: 1% 0% 5% 1%;
+  border-style: none;
 }
 
-.Location-input {
+
+
+
+.Location {
   position: relative;
   left: 8vh;
   bottom: 0rem;
@@ -64,7 +63,7 @@
 }
 
 
-.search-comp {
+.search-input {
   position: relative;
  
   left: 14vh;
@@ -97,19 +96,11 @@
   font-weight: 600;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.btn1{
-  width: 40vh;
-  height: 20vh;
-}
+
 .sell-btn{
    position: relative;
    left: 18vh;
    bottom: 1vh;
-}
-.dd1{
-  
-  position: relative;
-  left: 4vh;
 }
 
 
@@ -131,7 +122,7 @@ footer {
 }
 
 /* List section */
-.sing-footer {
+.list-footer {
   color: grey;
   padding: 2% 0% 5% 0%;
   position: relative;
@@ -146,81 +137,72 @@ footer {
   right: 5%;
 }
 
-.sing-footer h6 {
+.list-footer h6 {
   color: rgb(3, 56, 3);
   margin-bottom: 5px;
+
   font-size: 14px;
   font-weight: 700;
   width: 220%;
 }
 
-.sing-footer ul {
+.list-footer ul {
   list-style: none;
   font-weight: 200;
   width: 190%;
 }
 
-.nav-footer li:hover {
-  cursor: pointer;
-  color: darkgreen;
-}
 
-/* Social links */
-
-.social-links {
+.social-apps {
   display: inline-flex;
 }
 
-.social-links img {
+.social-apps img {
   width: 70%;
   padding: 0%;
 }
-.social-links img:hover {
+.social-apps img:hover {
   cursor: pointer;
 }
 
-#Move {
+.twitter {
   position: relative;
   right: 5%;
 }
-#Move2 {
+.play {
   position: relative;
   right: 10%;
 }
-#Move3 {
+.insta {
   position: relative;
   right: 15%;
 }
 
-.social-links2 {
+.Apps{
   display: inline-flex;
 }
 
-.social-links2 img {
+.Apps img {
   width: 180%;
   padding: 0%;
   margin: 0% 0%;
   position: relative;
   top: 170%;
 }
-.social-links2 img:hover {
+.Apps img:hover {
   cursor: pointer;
 }
 
-#move {
+.googleplay {
   position: relative;
   left: 30%;
 }
-#move2 {
+.appgallery {
   position: relative;
   left: 60%;
 }
 
-ul {
-  margin-bottom: 0%;
-  padding-left: 2%;
-  list-style: none;
-}
+
 
 /* Copyright*/
 

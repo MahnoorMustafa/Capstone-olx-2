@@ -7,8 +7,9 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import {Link} from "react-router-dom";
 
-import BusinessOutlinedIcon from '@mui/icons-material/BusinessOutlined';
-import LocalTaxiOutlinedIcon from '@mui/icons-material/LocalTaxiOutlined';
+import CorporateFareOutlinedIcon from '@mui/icons-material/CorporateFareOutlined';
+import DirectionsCarFilledOutlinedIcon from '@mui/icons-material/DirectionsCarFilledOutlined';
+
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import Sell from "../assets/Sell.PNG"
 function Navbar() {
@@ -19,19 +20,19 @@ function Navbar() {
       <nav className="navbar sticky-top navbar-expand-lg bg-light nav">
         <div className="container-fluid">
           <div className="nav-flex">
-            <div className="top-nav">
-              <div className="bluelogo">
+            <div className="topnav">
+              <div className="olxlogo">
                 <img src={olxLogo} />
               </div>
 
               <div className="product-links">
-                <LocalTaxiOutlinedIcon className="motors-icon"/>
+                <DirectionsCarFilledOutlinedIcon className="motorsicon"/>
                 <a>MOTORS</a>
-                <BusinessOutlinedIcon className="property-icon"/> 
+                <CorporateFareOutlinedIcon className="propertyicon"/> 
                 <a>PROPERTY</a>
               </div>
             </div>
-            <div className="mid-nav">
+            <div className="midnav">
               <button
                 className="navbar-toggler"
                 type="button"
@@ -48,14 +49,14 @@ function Navbar() {
                 className="collapse navbar-collapse"
                 id="navbarSupportedContent"
               >
-                <div className="black-logo">
+                <div className="olx2-logo">
                   <img src={olxBigLogo} />
                 </div>
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item dropdown ">
                     <div className="drop-box">
-                    <select class=" form-select-lg mb-3 Location-input" >
-                    <SearchRoundedIcon className="search-icon"/>
+                    <select class=" form-select-lg mb-3 Location" >
+                    
                       <option 
                         className="Location-input"
                         type="text"
@@ -77,7 +78,7 @@ function Navbar() {
                 </ul>
                 <form className="d-flex" role="search">
                   <input
-                    className=" me-2 search-comp"
+                    className=" me-2 search-input"
                     type="search"
                     placeholder="Find Cars, Mobile Phones and more..."
                     aria-label="Search"
@@ -87,10 +88,10 @@ function Navbar() {
                     type="submit"
                   > <SearchRoundedIcon/></button>
                 </form>
-                <Link to= "/LoginForm" className="kk">
+                <Link to= "/LoginForm" className="loginF">
                 <a className="login">Login</a>
                 </Link>
-                <Link to= "/Sell_form" className="kk">
+                <Link to= "/Sell_form" className="SellF">
                   <img  src={Sell} className="sell-btn"/>
                 </Link>
                

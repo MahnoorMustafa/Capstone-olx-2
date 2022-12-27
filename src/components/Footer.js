@@ -13,7 +13,7 @@ function Footer() {
       <div className="container-fluid">
         <div className="section-gap">
           {/* List Section */}
-          <div className="sing-footer">
+          <div className="list-footer">
             <div className="list-div">
               <h6>POPULAR CATEGORIES</h6>
               <ul>
@@ -33,7 +33,7 @@ function Footer() {
               </ul>
             </div>
             <div className="list-div">
-              <h6>ABOUT US</h6>
+              <h6 className="text-left ps-4">ABOUT US</h6>
               <ul>
                 <li>About EMPG</li>
                 <li>OLX Blog</li>
@@ -42,8 +42,8 @@ function Footer() {
               </ul>
             </div>
             <div className="list-div">
-              <h6>OLX</h6>
-              <ul>
+              <h6 className="text-left ps-4">OLX</h6>
+              <ul className="text-left">
                 <li>Help</li>
                 <li>Sitemap</li>
                 <li>Terms of use</li>
@@ -52,28 +52,28 @@ function Footer() {
             </div>
             <div className="list-div">
               <h6>FOLLOW US</h6>
-              <div className="social-links">
-                <div>
+              <div className="social-apps">
+                <div className="fb">
                   <img src={fb} />
                 </div>
-                <div id="Move">
+                <div className="twitter">
                   <img src={twitter} />
                 </div>
-                <div id="Move2">
+                <div className="play">
                   <img src={play} />
                 </div>
-                <div id="Move3">
+                <div className="insta">
                   <img src={insta} />
                 </div>
               </div>
-              <div className="social-links2">
-                <div>
+              <div className="Apps">
+                <div className="appstore">
                   <img src={appstore} />
                 </div>
-                <div id="move">
+                <div className="googleplay">
                   <img src={googleplay} />
                 </div>
-                <div id="move2">
+                <div className="appgallery">
                   <img src={appgallery} />
                 </div>
               </div>
