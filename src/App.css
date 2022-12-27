@@ -1,11 +1,5 @@
 /*--------------------------- Navbar */
 
-/* Logo */
-
-
-
-/* Upper Nav links */
-
 .olxlogo img {
   position: relative;
   width: 5vh;
@@ -36,7 +30,7 @@
   padding-bottom: 1vh;
 }
 
-/* =-------------------------mid navbar */
+/* mid navbar */
 
 .midnav {
   margin-top: -2%;
@@ -104,125 +98,6 @@
 }
 
 
-/* =-------------------Footer */
-
-/* footer */
-
-footer {
-  background-color: rgb(237, 237, 237);
-  box-sizing: border-box;
-}
-
-.section-gap {
-  font-size: 13px;
-  margin-bottom: 0%;
-  width: "fit-content";
-  margin-top: 70vh;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* List section */
-.list-footer {
-  color: grey;
-  padding: 2% 0% 5% 0%;
-  position: relative;
-  top: 40%;
-  width: 98%;
-  display: inline-flex;
-}
-
-.list-div {
-  margin: 0% 7%;
-  position: relative;
-  right: 5%;
-}
-
-.list-footer h6 {
-  color: rgb(3, 56, 3);
-  margin-bottom: 5px;
-
-  font-size: 14px;
-  font-weight: 700;
-  width: 220%;
-}
-
-.list-footer ul {
-  list-style: none;
-  font-weight: 200;
-  width: 190%;
-}
-
-
-.social-apps {
-  display: inline-flex;
-}
-
-.social-apps img {
-  width: 70%;
-  padding: 0%;
-}
-.social-apps img:hover {
-  cursor: pointer;
-}
-
-.twitter {
-  position: relative;
-  right: 5%;
-}
-.play {
-  position: relative;
-  right: 10%;
-}
-.insta {
-  position: relative;
-  right: 15%;
-}
-
-.Apps{
-  display: inline-flex;
-}
-
-.Apps img {
-  width: 180%;
-  padding: 0%;
-  margin: 0% 0%;
-  position: relative;
-  top: 170%;
-}
-.Apps img:hover {
-  cursor: pointer;
-}
-
-.googleplay {
-  position: relative;
-  left: 30%;
-}
-.appgallery {
-  position: relative;
-  left: 60%;
-}
-
-
-
-/* Copyright*/
-
-.last{
-  background-color: rgb(3, 47, 30);
-  color: white;
-  text-align: right;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 5px;
-  margin-bottom: -5%;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-}
-.nav1{
-   height: 100px;
-   background-color: antiquewhite;
-}
 /* ------------- Cards ------------- */
 
 .card-img {
@@ -457,4 +332,121 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+
+/* Footer */
+
+
+footer {
+  background-color: rgb(237, 237, 237);
+  box-sizing: border-box;
+}
+
+.section-gap {
+  font-size: 13px;
+  margin-bottom: 0%;
+  width: "fit-content";
+  margin-top: 70vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.list-footer {
+  color: grey;
+  padding: 2% 0% 5% 0%;
+  position: relative;
+  top: 40%;
+  width: 98%;
+  display: inline-flex;
+}
+
+.list-div {
+  margin: 0% 7%;
+  position: relative;
+  right: 5%;
+}
+
+.list-footer h6 {
+  color: rgb(3, 56, 3);
+  margin-bottom: 5px;
+
+  font-size: 14px;
+  font-weight: 700;
+  width: 220%;
+}
+
+.list-footer ul {
+  list-style: none;
+  font-weight: 200;
+  width: 190%;
+}
+
+
+.social-apps {
+  display: inline-flex;
+}
+
+.social-apps img {
+  width: 70%;
+  padding: 0%;
+}
+.social-apps img:hover {
+  cursor: pointer;
+}
+
+.twitter {
+  position: relative;
+  right: 5%;
+}
+.play {
+  position: relative;
+  right: 10%;
+}
+.insta {
+  position: relative;
+  right: 15%;
+}
+
+.Apps{
+  display: inline-flex;
+}
+
+.Apps img {
+  width: 180%;
+  padding: 0%;
+  margin: 0% 0%;
+  position: relative;
+  top: 170%;
+}
+.Apps img:hover {
+  cursor: pointer;
+}
+
+.googleplay {
+  position: relative;
+  left: 30%;
+}
+.appgallery {
+  position: relative;
+  left: 60%;
+}
+
+
+.last{
+  background-color: rgb(3, 47, 30);
+  color: white;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px;
+  margin-bottom: -5%;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+}
+.nav1{
+   height: 100px;
+   background-color: antiquewhite;
 }
