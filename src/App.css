@@ -223,7 +223,7 @@ footer {
    height: 100px;
    background-color: antiquewhite;
 }
-/* ------------- Products ------------- */
+/* ------------- Cards ------------- */
 
 .card-img {
   width: 100%;
@@ -261,6 +261,7 @@ footer {
 .load-more-btn:hover {
   outline: 2px solid black !important;
   transition: 0.05s ease;
+  color: #EDEDED;
 }
 /* ------------- Product Listings ------------- */
 

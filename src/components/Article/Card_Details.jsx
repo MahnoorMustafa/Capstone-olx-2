@@ -1,6 +1,6 @@
 import React from "react";
 
-function Details(props) {
+function Card_Details(props) {
   return (
     <div>
       <div className="container border rounded-2 p-3 my-2">
@@ -30,4 +30,4 @@ function Details(props) {
   );
 }
 
-export default Details;
+export default Card_Details;

@@ -1,12 +1,12 @@
 import React from "react";
 import { useState } from "react";
-import Carousel from "./Carousel"
-import Prices from "./Prices";
-import Details from "./Details";
-import Description from "./Description";
-import Locations from "./Locations";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import Card_prices from "./Card_prices";
+import Card_Carousel from "./Card_Carousel";
+import Card_Description from "./Card_Description";
+import Card_Details from "./Card_Details";
+import Card_Locations from "./Card_Locations";
 
 
 
@@ -26,14 +26,14 @@ function Articleinfo() {
     <div>
       {isLoading ? (
         <div className=" text-center w-100">
-          <p>Loading</p>
+          <p>Processing</p>
         </div>
       ) : (
         <div className="product-wrapper my-5 container px-5">
           <div className="product row w-100">
             <div className="col-lg-7">
-              <Carousel imgPath={apiData.image} />
-              <Details
+              <Card_Carousel imgPath={apiData.image} />
+              <Card_Details
                 brand={apiData.brand}
                 price={apiData.price}
                 condition={apiData.condition}
@@ -41,16 +41,16 @@ function Articleinfo() {
               />
             </div>
             <div className="col-lg-5">
-              <Prices
+              <Card_prices
                 price={apiData.price}
                 title={apiData.title}
                 location={apiData.location}
               />
-              <Description
+              <Card_Description
                 name={apiData.name}
                 phoneNumber={apiData.phoneNumber}
               />
-              <Locations location={apiData.location} />
+              <Card_Locations location={apiData.location} />
             </div>
           </div>
         </div>

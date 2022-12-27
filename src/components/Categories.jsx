@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import axios from "axios";
 
-function Category() {
+function Categories() {
   const [apiData, setApiData] = useState([]);
-  const [isArrowUp, setIsArrowUp] = useState(false);
+  const [ArrowUp, setArrowUp] = useState(false);
 
   useEffect(() => {
     axios.get(`https://fakestoreapi.com/products/categories`).then((result) => {
@@ -16,18 +16,18 @@ function Category() {
     });
   }, []);
 
-  const handleArrow = () => {
-    if (!isArrowUp) setIsArrowUp(true);
-    else setIsArrowUp(false);
+  const moveArrow = () => {
+    if (!ArrowUp) setArrowUp(true);
+    else setArrowUp(false);
   };
 
-  const arrowStyle = {
-    transform: isArrowUp ? "rotate(180deg)" : "",
+  const arrStyle = {
+    transform: ArrowUp ? "rotate(180deg)" : "",
     transition: "transform 200ms ease",
   };
 
-  const categoryStyle = {
-    display: isArrowUp ? "block" : "none",
+  const styleCategory = {
+    display: ArrowUp ? "block" : "none",
   };
 
   return (
@@ -35,14 +35,14 @@ function Category() {
       <div className="categorylist w-75 mx-auto my-3">
         <ul className=" list-inline">
           <li
-            onClick={handleArrow}
+            onClick={moveArrow}
             className="category-heading list-inline-item fw-bold text-dark fs-14 grayShade "
           >
             ALL CATEGORIES
-            <KeyboardArrowDownIcon style={arrowStyle} />
+            <KeyboardArrowDownIcon style={arrStyle} />
           </li>
            <li
-            style={categoryStyle}
+            style={styleCategory}
             className="allCategories position-absolute left-0 bg-white shadow p-4"
           >
           <a className="dropdown-item text-decoration-none fs-14 grayShade main-category" href="/electronics">
@@ -55,19 +55,19 @@ function Category() {
           </li> 
 
           {apiData.map((item, index) => {
-            const str = item;
-            const arr = str.split(" ");
+            const itm = item;
+            const arr = itm.split(" ");
             for (let i = 0; i < arr.length; i++) {
               arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
             }
-            const str2 = arr.join(" ");
+            const itm2 = arr.join(" ");
             return (
               <li key={index} className="list-inline-item ms-2 ">
                 <Link
                   to={`/${item}`}
                   className="text-decoration-none fs-14 grayShade main-category"
                 >
-                  {str2}
+                  {itm2}
                 </Link>
               </li>
             );
@@ -78,4 +78,4 @@ function Category() {
   );
 }
 
-export default Category;
+export default Categories;

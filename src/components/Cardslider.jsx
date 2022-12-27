@@ -9,10 +9,9 @@ import ViewAgendaOutlinedIcon from "@mui/icons-material/ViewAgendaOutlined";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 
-function Articles() {
+function Cardslider() {
   const [apiData, setApiData] = useState([]);
-  // const [disc, setDisc] = useState(true);
-  // const [fullView, setFullView] = useState(false);
+
   const [classNames, setclassNames] = useState("");
   const [isLoading, setIsLoading] = useState(true);
 
@@ -26,9 +25,7 @@ function Articles() {
       setIsLoading(false);
     });
 
-  // const imageHeightOnFullView = {
-  //   height: 300,
-  // };
+  
 
   const handleDisc = () => {
     setclassNames("col-md-6 col-sm-12 col-lg-4");
@@ -43,7 +40,7 @@ function Articles() {
       <div className="container-fluid productListingContainer w-75 mb-5">
         {isLoading ? (
           <div className=" text-center w-100">
-           <p>Loading</p>
+           <p>Processing</p>
           </div>
         ) : (
           <div>
@@ -257,4 +254,4 @@ function Articles() {
     );
   }
   
-  export default Articles;
+  export default Cardslider;

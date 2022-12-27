@@ -88,10 +88,10 @@ function Navbar() {
                     type="submit"
                   > <SearchRoundedIcon/></button>
                 </form>
-                <Link to= "/LoginForm" className="loginF">
+                <Link to= "/Form" className="loginF">
                 <a className="login">Login</a>
                 </Link>
-                <Link to= "/Sell_form" className="SellF">
+                <Link to= "/FormOfSell" className="SellF">
                   <img  src={Sell} className="sell-btn"/>
                 </Link>
                

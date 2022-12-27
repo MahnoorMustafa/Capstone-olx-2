@@ -1,6 +1,6 @@
 
 
-function LoginForm() {
+function Form() {
 
 
   return (
@@ -59,4 +59,4 @@ function LoginForm() {
   );
 }
 
-export default LoginForm;
+export default Form;

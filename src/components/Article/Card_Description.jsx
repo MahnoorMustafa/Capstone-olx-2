@@ -2,7 +2,7 @@ import React from "react";
 import avatar from "../../assets/avatar.png";
 import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
-function Description(props) {
+function Card_Description(props) {
   return (
     <div>
       <div className="container border rounded-2 my-2 py-4 px-3">
@@ -37,4 +37,4 @@ function Description(props) {
   );
 }
 
-export default Description;
+export default Card_Description;

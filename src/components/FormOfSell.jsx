@@ -4,7 +4,7 @@ import avatar from'../assets/avatar.png';
 
 
 
-function Sell_form() {
+function FormOfSell() {
   return (
   <div>
         <div className="container formbox bg-white my-5 pb-3 px-0 border-0 ">
@@ -90,4 +90,4 @@ function Sell_form() {
  
       );
 }
-export default Sell_form;
+export default FormOfSell;

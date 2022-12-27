@@ -4,12 +4,12 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Articleinfo from './components/Article/Articleinfo';
-import Products from './components/Products';
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
-import Articles from './components/Articles';
-import Category from './components/Category';
-import Sell_form from './components/Sell_form' ;
-import LoginForm from './components/LoginForm' ;
+import Categories from './components/Categories';
+import Cards from './components/Cards';
+import Cardslider from './components/Cardslider';
+import Form from './components/Form';
+import FormOfSell from './components/FormOfSell';
 
 
 function App() {
@@ -20,27 +20,27 @@ function App() {
   <Route path = "/" element={
     <div>
     <Navbar/>
-    <Category/>
-    <Products/>
+    <Categories/>
+    <Cards/>
     <Footer/>
     
     </div>
   }/>
-  <Route path = "/Sell_form" element={
+  <Route path = "/FormOfSell" element={
     <div>
-    <Sell_form/>
+    <FormOfSell/>
     </div>
   }/>
-  <Route path = "/LoginForm" element={
+  <Route path = "/Form" element={
     <div>
-    <LoginForm/>
+    <Form/>
     </div>
   }/>
   <Route path = "/:category" element={
     <div>
     <Navbar/>
-    <Category/>
-    <Articles/>
+    <Categories/>
+    <Cardslider/>
     <Footer/>
     
     </div>
@@ -48,7 +48,7 @@ function App() {
   <Route path = "/Articleinfo/:id" element={
     <div>
     <Navbar/>
-    <Category/>
+    <Categories/>
     <Articleinfo/>
     <Footer/>
     

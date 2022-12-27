@@ -2,7 +2,7 @@ import React from "react";
 import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 
-function Prices(props) {
+function Card_prices(props) {
   return (
     <div>
       <div className="container border pt-4 px-3 rounded-2">
@@ -23,4 +23,4 @@ function Prices(props) {
   );
 }
 
-export default Prices;
+export default Card_prices;
