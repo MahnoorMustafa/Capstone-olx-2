@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card_Carousel(props) {
+function CardCarousel(props) {
   return (
     <div>
       <div className="productImageSlider border">
@@ -87,4 +87,4 @@ function Card_Carousel(props) {
   );
 }
 
-export default Card_Carousel;
+export default CardCarousel;

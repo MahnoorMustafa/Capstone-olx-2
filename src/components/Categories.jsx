@@ -65,7 +65,7 @@ function Categories() {
               <li key={index} className="list-inline-item ms-2 ">
                 <Link
                   to={`/${item}`}
-                  className="text-decoration-none fs-14 grayShade main-category"
+                  className="text-decoration-none fs-14 text-dark main-category"
                 >
                   {itm2}
                 </Link>

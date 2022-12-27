@@ -263,7 +263,7 @@ footer {
   transition: 0.05s ease;
   color: #EDEDED;
 }
-/* ------------- Product Listings ------------- */
+/* ------------- Cardslider ------------- */
 
 
 
@@ -292,7 +292,7 @@ footer {
   }
 }
 
-/* -------------- Product Slider -------------- */
+/* -------------- Card_Carousel -------------- */
 
 .productImageSlider {
   height: 90vh;
@@ -335,7 +335,7 @@ footer {
   margin-bottom: 20%;
 }
 
-/* -------------- Product Price -------------- */
+/* -------------- Card_Prices -------------- */
 
 .priceRowIcons,
 .priceRowPrice,
@@ -348,7 +348,7 @@ footer {
   cursor: pointer;
 }
 
-/* -------------- Seller Description -------------- */
+/* -------------- Card_Description -------------- */
 
 .sellerImage {
   width: 4rem;
@@ -369,7 +369,7 @@ footer {
 }
 
 
-/* -------------- Product Info -------------- */
+/* -------------- Card_Detail -------------- */
 
 .productInfoHeading {
   font-size: 20px;

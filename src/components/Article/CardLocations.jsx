@@ -1,7 +1,7 @@
 import React from "react";
 import KeyboardArrowRightOutlinedIcon from "@mui/icons-material/KeyboardArrowRightOutlined";
 
-function Card_Locations(props) {
+function CardLocations(props) {
   return (
     <div>
       <div className="container border rounded-2 p-3">
@@ -31,4 +31,4 @@ function Card_Locations(props) {
   );
 }
 
-export default Card_Locations;
+export default CardLocations;
