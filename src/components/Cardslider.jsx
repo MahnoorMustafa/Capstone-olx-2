@@ -236,7 +236,7 @@ function Cardslider() {
                                 Rs {item.price}
                               </h5>
                               <p className="cardFooter position-absolute bottom-0">
-                                Lahore • 1 week ago
+                                Lahore • 1 month ago
                               </p>
                             </div>
                           </div>

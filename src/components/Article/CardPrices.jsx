@@ -15,8 +15,8 @@ function CardPrices(props) {
         </div>
         <p className="grayShade">{props.title}</p>
         <div className="productPriceFooter d-flex justify-content-between">
-          <p className="fs-12 grayShade">{props.location}</p>
-          <p className="fs-12 grayShade">1 day ago</p>
+          <p className="fs-12 text-black">Lahore</p>
+          <p className="fs-12 grayShade">23 hrs ago</p>
         </div>
       </div>
     </div>
